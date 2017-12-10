@@ -1,4 +1,4 @@
-package thread;
+package basic.thread;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.BrokenBarrierException;

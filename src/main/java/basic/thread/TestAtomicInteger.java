@@ -1,6 +1,4 @@
-package thread;
-
-import javafx.concurrent.Task;
+package basic.thread;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
