@@ -13,7 +13,7 @@ public class ClassTest {
     interface Shoots {
     }
 
-    class Toy {
+    static class Toy {
         Toy() {
         }
 
@@ -41,13 +41,14 @@ public class ClassTest {
             e.printStackTrace();
         }
         printInfo(c);
+        System.out.println("isAssignableFrom :" + c.isAssignableFrom(Toy.class));
         for (Class face : c.getInterfaces()){
             printInfo(face);
         }
         Class up = c.getSuperclass();
         Object object = null;
         try {
-            object = up.newInstance();
+            object = up.newInstance(); //对象内部类不能创建成功
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
