@@ -3,7 +3,7 @@ package algorithm.office;
 /**
  * Created by zhuanli.cheng on 2017/12/21.
  */
-public class Test09 {
+public class Test09_Fibonacci {
 
     public static long fibonacciRecursion(int n){
         if (n <= 0){
