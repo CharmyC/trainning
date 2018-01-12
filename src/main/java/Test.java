@@ -1,3 +1,5 @@
+import org.joda.time.DateTime;
+
 /**
  * Created by zhuanli.cheng on 2017/12/13.
  */
@@ -24,12 +26,14 @@ public class Test {
     public static void main(String[] args) {
         //int[] array = new int[]{-1, 9, 13, 2, 20, -9, 10, 20, 1};
 //        int[] array = new int[]{ 20,  20,  20,  20, 20,  20,  20, 20,  20};
-        int[] array = new int[]{ 20,  10};
-        Integer result = secondMax(array);
-        if (null == result){
-            System.out.println("error");
-        } else {
-            System.out.println(result);
-        }
+//        int[] array = new int[]{ 20,  10};
+//        Integer result = secondMax(array);
+//        if (null == result){
+//            System.out.println("error");
+//        } else {
+//            System.out.println(result);
+//        }
+        System.out.println(new DateTime());
+        System.out.println(new DateTime(2018, 01, 01, 00, 00,00).getWeekOfWeekyear());
     }
 }
